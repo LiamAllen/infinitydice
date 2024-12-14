@@ -12,7 +12,9 @@ import picocli.CommandLine.*;
  * 
  */
 @Command(name = "infinitydice", mixinStandardHelpOptions = true, version = "0.0.0", description = "Java CLI for generating outcomes for a variety of probabilities", subcommands = {
-		Echo.class})
+		Echo.class,
+		Roll.class
+		})
 public class App implements Runnable{
 
 	public static int appStatus; //value of 1 = program exited, value 0 = program is running

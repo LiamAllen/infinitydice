@@ -19,8 +19,6 @@ public class Echo implements Runnable{
 	 * @param args
 	 */
 	
-	public static int paramCount = 1;
-	
 	@Parameters(index = "0", description = "echo")
 	private String echo;
 	
